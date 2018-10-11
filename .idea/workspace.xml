@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8df5133c-ca5e-4882-88e0-40a63985b278" name="Default Changelist" comment="！！！">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/Enity/person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/service/empotyServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/service/empotyServiceImp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1319" />
+          <entry key="java" value="1336" />
           <entry key="js" value="24" />
           <entry key="jsp" value="477" />
           <entry key="properties" value="10" />
@@ -61,7 +58,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1319" />
+          <entry key="JAVA" value="1336" />
           <entry key="JSP" value="477" />
           <entry key="JavaScript" value="24" />
           <entry key="PLAIN_TEXT" value="3" />
@@ -131,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/Enity/person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -243,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/reg.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/service/empotyServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/Enity/person.java" />
       </list>
     </option>
   </component>
@@ -347,7 +345,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/IdeaProjects/web_ssm/src/main/java/com/godwei/ssmframe/dao/empotyDao.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539245433647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539246179692" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -486,7 +484,7 @@
       <workItem from="1537781397307" duration="2174000" />
       <workItem from="1537834840741" duration="14000" />
       <workItem from="1538790877304" duration="1067000" />
-      <workItem from="1539241882747" duration="3389000" />
+      <workItem from="1539241882747" duration="4168000" />
     </task>
     <task id="LOCAL-00001" summary="！！！">
       <created>1539244802064</created>
@@ -495,15 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1539244802065</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="！！！">
+      <created>1539245493351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539245493351</updated>
+    </task>
+    <task id="LOCAL-00003" summary="！！！">
+      <created>1539246058397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539246058397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66953000" />
+    <option name="totallyTimeSpent" value="67732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4852941" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" sideWeight="0.50816995" side_tool="true" weight="0.2322239" />
@@ -526,7 +537,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="14" weight="0.71568626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -744,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/godwei/ssmframe/Enity/person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
