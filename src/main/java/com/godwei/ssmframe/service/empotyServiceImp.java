@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class empotyServiceImp implements empotyService{
 
-    //service依赖于dao！！！！！
+    //service依赖于dao
 @Autowired
     private  empotyDao mapper;
 
