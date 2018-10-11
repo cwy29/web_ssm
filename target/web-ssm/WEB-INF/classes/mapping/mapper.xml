@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.godwei.ssmframe.dao.empotyDao">
+    <!--namespace感觉对应的是相应接口的地址-->
+    <!-- 自定义返回结果集，select 出来的结果类型就是此处定义的 -->
+    <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+    <resultMap id="map1" type="com.godwei.ssmframe.Enity.empotybean">
+        <!-- 用id属性来映射主键字段 -->
+        <id property="id" column="id" javaType="java.lang.Integer"></id>
+        <!-- 用result属性来映射非主键字段,propertyy是定义的bean对象的变量名，而colum是实际xissuebillinfo表中的真实列名 -->
+        <result property="name" column="name" javaType="java.lang.String"></result>
+        <result property="pwd" column="pwd" javaType="java.lang.String"></result>
+    </resultMap>
+    <!--根据id查询信息-->
+    <select id="selectById" resultMap="map1">
+        select  * from  empoty where id=#{id}
+    </select>
+    <!--注册-->
+    <insert id="reg">
+      insert  into  empoty(name,pwd) values (#{name},#{pwd})
+    </insert>
+    <!--登录-->
+    <select id="login" parameterType="String" resultMap="map1">
+        select * from empoty  where name=#{name} and pwd=#{pwd}
+    </select>
+
+
+</mapper>
