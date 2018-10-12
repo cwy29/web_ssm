@@ -1,0 +1,51 @@
+                                SpringMVC框架的搭建
+ I.在pom.xml中依赖jar包
+
+ II.在web.xml中配置DisPacherServlet核心控制器
+      注意事项：
+          1.初始化参数：告知当前springmvc配置文件的路径
+          <init-param>
+                <param-name>contextConfigLocation</param-name>
+                <param-value>classpath:spring-mvc.xml</param-value>
+              </init-param>
+ III.在web.xml中配置当前的servlet的映射，接收所有用户的请求
+           servlet-mapping>
+               <servlet-name>SpringMVC</servlet-name>
+             <url-pattern>/</url-pattern>
+           </servlet-mapping>
+ IV.配置springmvc文件
+       注意事项:
+       springmvc文件的名字必须要与在web.xml中被告知当前springmvc配置文件的路径一致
+       即spring-mvc.xml
+
+        <!-- 自动扫描包  @Controller-->
+        <context:component-scan base-package="com.godwei.ssmframe.controller"/>
+
+         <!--配置一个bean 定义跳转的文件的前后缀 ，视图模式配置，将逻辑视图转为物理视图，用于页面的跳转 -->
+         <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+             <property name="prefix" value="/WEB-INF/jsp/" />
+             <property name="suffix" value=".jsp"/>
+         </bean>
+ V.配置控制器
+    注意事项：
+        在类上加一个控制器注解@Controller
+        在方法名上加一个映射注解 @RequestMapping("/方法名称")//把某个请求映射到特定的方法上面
+
+
+ 任何一个Javabean都可以作为控制器 @Controller
+ 建议控制器类新建在自动扫描包写明的路径下
+ 在控制器类中的方法可以接收请求并作出响应，但方法需要规范，访问修饰符必须public 方法类型为String
+
+@Controller
+public class 控制器类名称{
+
+@RequestMapping("/方法名称")
+public String 方法名称(){
+  1.业务处理
+  2.return 逻辑视图的名称（新的jsp路径）
+ }
+
+}
+
+
+返回的方法值：当前业务处理完毕后，所要跳转的web资源，即逻辑视图名称

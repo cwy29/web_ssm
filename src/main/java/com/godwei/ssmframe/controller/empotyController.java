@@ -25,7 +25,7 @@ public class empotyController {
         this.empotyservice = empotyservice;
     }
 
-    @RequestMapping("selectById/{id}")
+    @RequestMapping("selectById/{id}")//把某个请求映射到特定的方法上面
     public String selectById(@PathVariable("id")Integer id,Map<String,Object> map)
     {
         empotybean bean=empotyservice.selectById(id);

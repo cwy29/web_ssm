@@ -42,7 +42,25 @@
   </listener>
 
 
-  <!-- spring mvc servlet-->
+  <!-- spring mvc servlet
+
+
+  第一步骤:    初始化参数:告知当前springmvc的配置文件路径
+  <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:spring-mvc.xml</param-value>
+    </init-param>
+
+    第二步骤： 配置当前的servlet映射，接收所有用户的请求
+
+ <servlet-mapping>
+    <servlet-name>SpringMVC</servlet-name>
+  <url-pattern>/</url-pattern>
+</servlet-mapping>
+
+   第三步骤： 完成springmvc的配置文件即spring-mvc.xml
+
+  -->
   <servlet>
     <servlet-name>SpringMVC</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
